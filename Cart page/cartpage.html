@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="../Cart page/cartpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+      <nav>
+        <div class="nav-bar">
+            <h1>Ecommerce</h1>
+            <ul class="nav-links">
+               <a href="../Home page/Homepage.html"><li>Home</li></a>
+               <a href="../Product page/productspage.html"><li>Products</li></a>
+               <a href="../About page/about.html"><li>About</li></a>
+               <a href="../ContactUs page/contactuspage.html"><li>Contact</li></a>
+            </ul>
+            <div class="btn-container">
+                <a href="../Login page/Loginpage.html" style="text-decoration: none;color: black;"><button class="login-btn">
+                    <i class="fa-solid fa-right-to-bracket"></i>  Login </button></a>
+                <a href="../Register page/Registerpage.html" style="text-decoration: none;color: black;"><button class="register-btn">
+                    <i class="fa-solid fa-user-plus"></i> Register</button></a>    
+                       
+                  <button type="button">
+          <a href="../Cart page/cartpage.html" style="text-decoration: none;color: black;">
+             <i class="fa-solid fa-cart-shopping"></i>Cart (<span id="cart-count">0</span>)
+          </a>
+        </button>
+
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br><br>
+     
+
+      <!--  -->
+      <h3>Cart</h3> 
+      <hr>
+  
+
+  <div class="cart-wrapper">
+      <div class="cart-items">
+        <h3>Item List</h3> <hr>
+        <div id="cart-list"></div>
+      </div>
+      <div class="cart-summary">
+        <h3>Order Summary</h3>  
+        <p style="margin-right: 58px;">Products (<span id="product-count">0</span>): $</p><p id="subtotal" style="margin-top: -18px;"> 0.00</p>
+        <p>Shipping: $<span id="shipping">30</span></p><br>
+        <hr>
+        <p><strong>Total amount: $<span id="total">0.00</span></strong></p>
+        <button class="checkout-btn">Go to checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- empty cart -->
+
+    <div id="empty-cart" class="empty-cart-message">
+    <p>Your cart is empty.</p>
+    <button onclick="window.location.href='../Home page/Homepage.html'"> ← Continue Shopping</button>
+  </div>
+
+<footer>
+        <div class="footer">
+            <p>Made With ❤ by <span>Vivek</span></p>
+        </div>
+    </footer>
+
+  <!--  -->
+<script src="../Cart page/cart.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
