@@ -76,7 +76,6 @@ nav h1 {
 
 .footer span {
     color: #e02d05;
-    /* text-decoration: wavy underline; */
     font-weight: 600px;
     font-size: 20px;
 }
@@ -92,7 +91,6 @@ nav h1 {
     
 }
 .card{
-/* padding: 80px; */
  border: none;
  margin-left: 50px;
 }
@@ -100,6 +98,4 @@ nav h1 {
     text-align: center;
     font-weight: 300px;
     font-family:Arial, Helvetica, sans-serif;
-
-
 }
