@@ -24,9 +24,7 @@ nav h1 {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
-    
-    
+    z-index: 1000;  
 }
 
 .nav-links {
@@ -105,17 +103,11 @@ nav h1 {
     text-align: right;
     margin-top: 20px;
 }
-
-
-
-
-
-
-      .htag {
-        font-size: 24px;
-      }
+.htag {
+font-size: 24px;
+}
       
-    .nav-area {
+.nav-area {
       display: flex;
       align-items: center;
       gap: 80px;
@@ -188,7 +180,6 @@ nav h1 {
   margin-left: 20px;
   border: 2px solid lightgrey;
    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  /* background-color: rgb(233, 228, 228); */
 }
 
 .cart-item {
@@ -307,13 +298,6 @@ nav h1 {
       margin: 0;
       padding: 0;
     }
-   
-
-    
-   
-
-
-
     .footer {
     background-color: #ffffff;
     font: 1em sans-serif;
@@ -325,7 +309,6 @@ nav h1 {
 }
 .footer span {
     color: #e02d05;
-    /* text-decoration: wavy underline; */
     font-weight: 600px;
     font-size: 20px;
 }
